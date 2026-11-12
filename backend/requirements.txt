@@ -1,0 +1,55 @@
+# ---- Web / API ----
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+pydantic==2.10.4
+pydantic-settings==2.7.1
+email-validator==2.2.0
+
+# ---- Auth / crypto ----
+passlib[bcrypt]==1.7.4
+bcrypt==4.2.1
+python-jose[cryptography]==3.3.0
+cryptography==44.0.0
+
+# ---- Database ----
+SQLAlchemy==2.0.36
+alembic==1.14.0
+psycopg[binary]==3.2.3
+pgvector==0.3.6
+
+# ---- Background work ----
+celery==5.4.0
+redis==5.2.1
+
+# ---- HTTP / parsing ----
+httpx==0.28.1
+tenacity==9.0.0
+beautifulsoup4==4.12.3
+lxml==5.3.0
+feedparser==6.0.11
+python-dateutil==2.9.0.post0
+
+# ---- Documents ----
+python-docx==1.1.2
+reportlab==4.2.5
+pypdf==5.1.0
+pdfplumber==0.11.4
+
+# ---- LLM providers (optional at runtime) ----
+anthropic==0.42.0
+openai==1.59.6
+
+# ---- Google / Microsoft mail (optional at runtime) ----
+google-auth==2.37.0
+google-auth-oauthlib==1.2.1
+google-api-python-client==2.157.0
+msal==1.31.1
+
+# ---- Observability ----
+structlog==24.4.0
+prometheus-client==0.21.1
+
+# ---- Testing ----
+pytest==8.3.4
+pytest-asyncio==0.25.2
